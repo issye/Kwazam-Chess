@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=MenuView
+comment1.params=musicController
+comment1.target=MenuView(MusicController)
+comment1.text=\r\n\ Constructor\ initializes\ the\ MenuView\ with\ a\ MusicController.\r\n\ @param\ musicController\ The\ controller\ managing\ background\ music.\r\n
+comment2.params=tutorialController
+comment2.target=void\ setTutorialController(TutorialController)
+comment2.text=\r\n\ Sets\ the\ TutorialController\ for\ managing\ tutorial\ views.\r\n\ @param\ tutorialController\ The\ controller\ managing\ tutorial\ views.\r\n
+comment3.params=loadController
+comment3.target=void\ setLoadController(LoadController)
+comment4.params=gameFlowController
+comment4.target=void\ setControllers(GameFlowController)
+comment4.text=\r\n\ Sets\ the\ controllers\ for\ game\ flow\ and\ persistence\ actions.\r\n\ @param\ gameFlowController\ The\ controller\ for\ starting\ a\ new\ game.\r\n\ @param\ persistenceController\ The\ controller\ for\ saving\ and\ loading\ games.\r\n
+comment5.params=
+comment5.target=void\ showMenu()
+comment5.text=\r\n\ Displays\ the\ main\ menu\ window\ with\ options\ to\ start\ a\ new\ game,\ load\ a\ game,\ and\ toggle\ music.\r\n
+comment6.params=text
+comment6.target=javax.swing.JButton\ createStyledButton(java.lang.String)
+comment6.text=\r\n\ Creates\ a\ styled\ JButton\ with\ predefined\ colors\ and\ behaviors.\r\n\ @param\ text\ The\ text\ to\ display\ on\ the\ button.\r\n\ @return\ A\ styled\ JButton.\r\n
+comment7.params=
+comment7.target=void\ music()
+comment7.text=\r\n\ Toggles\ the\ background\ music\ on\ or\ off\ using\ the\ MusicController.\r\n\ Updates\ the\ button\ text\ to\ reflect\ the\ current\ state.\r\n
+comment8.params=
+comment8.target=void\ closeMenu()
+comment8.text=\r\n\ Closes\ the\ main\ menu\ window.\r\n
+numComments=9

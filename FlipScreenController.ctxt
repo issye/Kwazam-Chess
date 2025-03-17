@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=FlipScreenController
+comment0.text=\r\n\ The\ FlipScreenController\ class\ is\ responsible\ for\ flipping\ the\ chessboard\ view\r\n\ in\ a\ chess\ application.\ It\ interacts\ with\ the\ ChessModel\ (data)\ and\ ChessView\ (UI)\r\n
+comment1.params=view\ model
+comment1.target=FlipScreenController(ChessView,\ ChessModel)
+comment1.text=\r\n\ Constructor\ to\ initialize\ the\ FlipScreenController\ with\ view\ and\ model.\r\n
+comment2.params=
+comment2.target=void\ flipScreen()
+comment2.text=\r\n\ The\ chessboard\ will\ be\ flipped\ by\ reversing\ the\ x-coordinates\ on\ the\ board.\r\n
+numComments=3

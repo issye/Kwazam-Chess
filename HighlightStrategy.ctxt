@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=HighlightStrategy
+comment1.params=row\ col\ pieceRow\ pieceCol
+comment1.target=boolean\ shouldHighlight(int,\ int,\ int,\ int)
+numComments=2

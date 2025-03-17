@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GameFlowController
+comment0.text=\r\n\ The\ GameFlowController\ class\ manages\ the\ flow\ of\ the\ chess\ game.\r\n\ It\ serves\ as\ a\ mediator\ between\ the\ ChessModel\ and\ ChessView,\ handling\ game\ initialization\r\n\ and\ game-over\ scenarios.\r\n
+comment1.params=model\ view
+comment1.target=GameFlowController(ChessModel,\ ChessView)
+comment1.text=\r\n\ Constructor\ to\ initialize\ the\ GameFlowController\ with\ the\ necessary\ components.\r\n\r\n\ @param\ model\ The\ ChessModel\ instance\ managing\ the\ game\ state.\r\n\ @param\ view\ \ The\ ChessView\ instance\ for\ displaying\ the\ game.\r\n
+comment2.params=
+comment2.target=void\ startNewGame()
+comment2.text=\r\n\ Starts\ a\ new\ game\ by\ resetting\ the\ model\ and\ initializing\ the\ view.\r\n
+comment3.params=
+comment3.target=void\ handleGameOver()
+comment3.text=\r\n\ Handles\ the\ game-over\ by\ determining\ the\ winner\ and\ updating\ the\ view.\r\n
+numComments=4

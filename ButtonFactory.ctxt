@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=ButtonFactory
+comment1.params=text\ backgroundColor\ actionListener
+comment1.target=javax.swing.JButton\ createButton(java.lang.String,\ java.awt.Color,\ java.awt.event.ActionListener)
+numComments=2

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=GameController
+comment0.text=\r\n\ Purpose\:\r\n\ This\ class\ serves\ as\ the\ central\ controller\ for\ managing\ the\ game's\ overall\ functionality.\r\n\ It\ integrates\ the\ GameFlowController,\ MoveController,\ and\ PersistenceController\ to\ \r\n\ handle\ game\ flow,\ player\ moves,\ and\ saving/loading\ game\ states.\ The\ GameController\ acts\ \r\n\ as\ the\ main\ entry\ point\ for\ coordinating\ interactions\ between\ the\ model,\ view,\ and\ controllers.\r\n
+comment1.params=model\ view\ menu
+comment1.target=GameController(ChessModel,\ ChessView,\ MenuView)
+comment1.text=\r\n\ Constructor\ initializes\ the\ GameController\ with\ the\ model,\ view,\ and\ menu\ components.\r\n\ @param\ model\ The\ ChessModel\ representing\ the\ game's\ state.\r\n\ @param\ view\ The\ ChessView\ for\ displaying\ the\ game.\r\n\ @param\ menu\ The\ MenuView\ for\ handling\ menu\ interactions.\r\n
+comment2.params=
+comment2.target=void\ startNewGame()
+comment2.text=\r\n\ Starts\ a\ new\ game\ by\ delegating\ the\ action\ to\ the\ GameFlowController.\r\n
+comment3.params=x\ y
+comment3.target=boolean\ executeMovement(int,\ int)
+comment3.text=\r\n\ Handles\ a\ player's\ move\ by\ delegating\ to\ the\ MoveController.\r\n\ If\ the\ game\ ends\ as\ a\ result\ of\ the\ move,\ the\ GameFlowController\ manages\ the\ game-over\ state.\r\n\ @param\ x\ The\ x-coordinate\ of\ the\ move.\r\n\ @param\ y\ The\ y-coordinate\ of\ the\ move.\r\n\ @return\ True\ if\ the\ move\ ends\ the\ game,\ false\ otherwise.\r\n
+numComments=4

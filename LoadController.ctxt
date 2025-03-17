@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=LoadController
+comment0.text=\r\n\ Write\ a\ description\ of\ LoadController\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=model\ view\ menu
+comment1.target=LoadController(ChessModel,\ ChessView,\ MenuView)
+comment2.params=filename
+comment2.target=void\ loadGame(java.lang.String)
+numComments=3

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=HighlightStrategyFactory
+comment1.params=pieceName
+comment1.target=HighlightStrategy\ getStrategy(java.lang.String)
+numComments=2

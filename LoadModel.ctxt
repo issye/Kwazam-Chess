@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=LoadModel
+comment1.params=model\ view\ filename
+comment1.target=void\ loadGame(ChessModel,\ ChessView,\ java.lang.String)
+comment2.params=name\ color\ x\ y
+comment2.target=ChessPieces\ loadPiece(java.lang.String,\ ChessPieces.Color,\ int,\ int)
+numComments=3

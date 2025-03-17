@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Biz
+comment0.text=\r\n\ @Issye\ Lailiyah\r\n\ Biz.java\r\n\r\n\ Purpose\:\r\n\ This\ class\ defines\ the\ behavior\ and\ properties\ of\ the\ Biz\ chess\ piece.\ \r\n\ The\ Biz\ piece\ is\ unique\ in\ that\ it\ moves\ in\ an\ L-shape\ (3x2\ or\ 2x3\ configuration)\ \r\n\ in\ any\ orientation\ and\ can\ skip\ over\ other\ pieces.\ It\ is\ the\ only\ chess\ piece\ \r\n\ with\ this\ capability,\ making\ it\ versatile\ for\ strategic\ gameplay.\r\n\r\n\ Design\:\r\n\ -\ Inherits\ common\ functionality\ from\ the\ ChessPieces\ superclass.\r\n\ -\ Implements\ movement\ validation\ specific\ to\ Biz.\r\n\ -\ Handles\ interactions\ with\ target\ squares,\ including\ capturing\ opponent\ pieces.\r\n
+comment1.params=newX\ newY\ board
+comment1.target=boolean\ correctMove(int,\ int,\ ChessPieces[][])
+comment1.text=\r\n\ Validates\ the\ move\ for\ the\ Biz\ piece\ based\ on\ its\ unique\ movement\ rules.\r\n\ Biz\ can\ move\ in\ an\ L-shape\ (3x2\ or\ 2x3)\ in\ any\ orientation,\ and\ it\ can\ skip\ other\ pieces.\r\n\ @param\ newX\ The\ target\ x-coordinate\r\n\ @param\ newY\ The\ target\ y-coordinate\r\n\ @param\ board\ The\ current\ state\ of\ the\ chessboard\r\n\ @return\ True\ if\ the\ move\ is\ valid,\ false\ otherwise\r\n
+comment2.params=x\ y
+comment2.target=void\ setPosition(int,\ int)
+comment2.text=\r\n\ Sets\ the\ new\ position\ for\ the\ Biz\ piece\ and\ logs\ the\ update.\r\n\ @param\ x\ New\ x-coordinate\r\n\ @param\ y\ New\ y-coordinate\r\n
+numComments=3

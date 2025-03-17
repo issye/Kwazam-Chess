@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=MoveController
+comment0.text=\r\n\ Purpose\:\r\n\ This\ class\ serves\ as\ the\ controller\ for\ managing\ moves\ in\ the\ chess\ game.\ \r\n\ It\ handles\ player\ input,\ validates\ and\ executes\ moves,\ transforms\ pieces\ (Xor\ <->\ Tor),\ \r\n\ updates\ the\ view,\ and\ controls\ game\ flow,\ including\ turn\ switching\ and\ game-over\ logic.\r\n
+comment1.params=model\ view
+comment1.target=MoveController(ChessModel,\ ChessView)
+comment2.params=x\ y
+comment2.target=boolean\ executeMovement(int,\ int)
+comment2.text=\r\n\ Handles\ a\ player's\ move.\r\n\ @return\ True\ if\ the\ move\ ends\ the\ game;\ false\ otherwise.\r\n
+comment3.params=
+comment3.target=void\ XorMoves()
+comment3.text=\r\n\ Processes\ all\ Xor\ pieces\ on\ the\ board\ and\ transforms\ them\ to\ Tor\ pieces\r\n\ if\ the\ conditions\ are\ met\ (countMoves\ is\ even\ and\ greater\ than\ 0).\r\n
+comment4.params=x\ y
+comment4.target=void\ XorToTor(int,\ int)
+comment4.text=\r\n\ Transforms\ a\ specific\ Xor\ piece\ into\ a\ Tor\ piece\ at\ the\ given\ position.\r\n\ @param\ x\ The\ x-coordinate\ of\ the\ piece.\r\n\ @param\ y\ The\ y-coordinate\ of\ the\ piece.\r\n
+comment5.params=
+comment5.target=void\ TorMoves()
+comment5.text=\r\n\ Processes\ all\ Tor\ pieces\ on\ the\ board\ and\ transforms\ them\ to\ Xor\ pieces\r\n\ if\ the\ conditions\ are\ met\ (countMoves\ is\ even\ and\ greater\ than\ 0).\r\n
+comment6.params=x\ y
+comment6.target=void\ TorToXor(int,\ int)
+comment6.text=\r\n\ Transforms\ a\ specific\ Tor\ piece\ into\ a\ Xor\ piece\ at\ the\ given\ position.\r\n\ @param\ x\ The\ x-coordinate\ of\ the\ piece.\r\n\ @param\ y\ The\ y-coordinate\ of\ the\ piece.\r\n
+numComments=7
